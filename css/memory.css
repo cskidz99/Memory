@@ -540,7 +540,7 @@ img {
 }
 
 .mg__tile--outside {
-  background: url("../img/default/logo-bw.png") 50% 50% no-repeat;
+  background: url("../img/default/blogo-bw.png") 50% 50% no-repeat;
   background-color: #dcdee1;
   box-shadow: 0 0 0 1px #787a80;
 }
