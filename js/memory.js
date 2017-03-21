@@ -21,7 +21,7 @@
    */
 
   function extend( a, b ) {
-    for( var key in b ) { 
+    for( var key in b ) {
       if( b.hasOwnProperty( key ) ) {
         a[key] = b[key];
       }
@@ -202,7 +202,7 @@
       <span class="mg__meta--level">Level: \
       <span id="mg__meta--level">' + this.chosenLevel + '</span>\
       </span>\
-      <span class="mg__meta--moves">Moves: \
+      <span class="mg__meta--moves">Hours Testing: \
       <span id="mg__meta--moves">' + this.numMoves + '</span>\
       </span>\
       </div>\
@@ -310,7 +310,7 @@
       this.tilesHTML += '<div class="mg__tile mg__tile-' + n + '">\
         <div class="mg__tile--inner" data-id="' + this.newCards[i]["id"] + '">\
         <span class="mg__tile--outside"></span>\
-        <span class="mg__tile--inside"><img src="' + this.newCards[i]["img"] + '"></span>\
+        <span class="mg__tile--inside"><img src="' + this.newCards[i]["img"] + '" loop=infinite></span>\
         </div>\
         </div>';
     }
@@ -342,7 +342,7 @@
    * This function takes care of the "events", which is basically the clicking
    * of tiles. Tiles need to be checked if flipped or not, flipped if possible,
    * and if zero, one, or two cards are flipped. When two cards are flipped, we
-   * have to check for matches and mismatches. The _gameCardsMatch and 
+   * have to check for matches and mismatches. The _gameCardsMatch and
    * _gameCardsMismatch functions perform two separate sets of functions, and are
    * thus separated below.
    */
