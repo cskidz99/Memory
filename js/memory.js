@@ -213,7 +213,7 @@
     this.game.appendChild(this.gameMeta);
 
     this.gameStartScreenHTML = '<h2 class="mg__start-screen--heading">Welcome to the Memory Game!</h2>\
-      <p class="mg__start-screen--text">Flip the tiles and try to match them up in pairs. Pair up all the tiles to win. Try to complete the game in as few moves as possible!</p>\
+      <p class="mg__start-screen--text">The FilmArray can find pathogens in 45 minutes. How fast can you find them on your own?<br><br>Flip the tiles and try to match them up in pairs. Pair up all the tiles to win. Try to complete the game in as few moves as possible!</p>\
       <h3 class="mg__start-screen--sub-heading">Select Level</h3>\
       <ul class="mg__start-screen--level-select">\
       <li><span data-level="1">Level 1 - Easy (4 x 2)</span></li>\
@@ -489,7 +489,7 @@
     if (this.options.onGameEnd() === false) {
       this._clearGame();
       this.gameMessages.innerHTML = '<h2 class="mg__onend--heading">Sweet!</h2>\
-        <p class="mg__onend--message">You won the round in ' + this.numMoves + ' moves. Go you.</p>\
+        <p class="mg__onend--message">You found the pathogens in ' + this.numMoves + ' hours. Go you.</p>\
         <button id="mg__onend--restart" class="mg__button">Play again?</button>';
       this.game.appendChild(this.gameMessages);
       document.getElementById("mg__onend--restart").addEventListener( "click", function(e) {

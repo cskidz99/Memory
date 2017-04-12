@@ -43,7 +43,7 @@
 }
 
 .mg__meta--moves {
-  
+
 }
 
 /**
@@ -104,7 +104,7 @@
 .mg__wrapper {
   margin: 0 auto;
   width: 100%;
-  
+
 }
 
 .mg__contents {
@@ -149,7 +149,7 @@
       }
     }
   }
- 
+
 }
 
 /**
@@ -181,7 +181,7 @@
 }
 
 .mg__tile--outside {
-  background: url('../img/default/logo-bw.png') 50% 50% no-repeat;
+  background: url('../img/default/blogo-bw.png') 50% 50% no-repeat;
   background-color: $color--ltgrey;
   box-shadow: 0 0 0 1px $color--grey;
 }
@@ -205,7 +205,7 @@
 /* some transitions for correct guesses - only needs to happen on card inside */
 
 .mg__tile--inner.flipped.correct .mg__tile--inside {
-  background-color: $color--yellow;
+  background-color: $color--red;
 }
 
 /**

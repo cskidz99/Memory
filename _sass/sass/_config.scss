@@ -22,15 +22,15 @@ $line-height--large : 1.8;
 
 $color--dkgrey : rgb(40,42,47);
 $color--grey : rgb(120,122,128);
-$color--ltgrey : rgb(220,222,225);
+$color--ltgrey : rgb(217,217,214);
 $color--xltgrey : rgb(248,250,252);
 
-$color--blue : rgb(40,170,220);
+$color--blue : rgb(78,195,224);
 $color--dkblue : darken($color--blue, 20%);
 $color--ltblue : lighten($color--blue, 20%);
 
-$color--red : rgb(255,60,80);
-$color--dkred : darken($color--red, 20%);
+$color--red : rgb(192,49,26);
+$color--dkred : rgb(138,31,3);
 $color--ltred : lighten($color--red, 20%);
 
 $color--green : rgb(145,251,173);
