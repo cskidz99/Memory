@@ -213,7 +213,7 @@
     this.game.appendChild(this.gameMeta);
 
     this.gameStartScreenHTML = '<h2 class="mg__start-screen--heading">Welcome to the Memory Game!</h2>\
-      <p class="mg__start-screen--text">The FilmArray can find pathogens in 45 minutes. How fast can you find them on your own?<br><br>Flip the tiles and try to match them up in pairs. Pair up all the tiles to win. Try to complete the game in as few moves as possible!</p>\
+      <p class="mg__start-screen--text">The FilmArray can find pathogens in about an hour. How fast can you find them on your own?<br><br>Flip the tiles and try to match them up in pairs. Pair up all the tiles to win. Try to complete the game in as few moves as possible!</p>\
       <h3 class="mg__start-screen--sub-heading">Select Level</h3>\
       <ul class="mg__start-screen--level-select">\
       <li><span data-level="1">Level 1 - Easy (4 x 2)</span></li>\
